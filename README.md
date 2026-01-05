@@ -1,8 +1,8 @@
-# 🏋️ Fitness Tracker
+# Fitness Tracker
 
 Kompleksowa aplikacja webowa do śledzenia aktywności fizycznej, treningów i żywienia. System umożliwia użytkownikom monitorowanie postępów treningowych, zarządzanie dietą oraz analizę wyników poprzez zaawansowane wykresy i statystyki.
 
-## 📋 Spis treści
+## Spis treści
 
 - [Funkcjonalności](#-funkcjonalności)
 - [Technologie](#-technologie)
@@ -14,25 +14,25 @@ Kompleksowa aplikacja webowa do śledzenia aktywności fizycznej, treningów i �
 - [Zrzuty ekranu](#-zrzuty-ekranu)
 - [Licencja](#-licencja)
 
-## ✨ Funkcjonalności
+## Funkcjonalności
 
 ### Dla użytkowników:
-- 📝 **Rejestracja i logowanie** - Bezpieczny system autentykacji z weryfikacją emaila
-- 🏃 **Śledzenie treningów** - Dodawanie i zarządzanie treningami siłowymi i cardio
-- 🍎 **Monitorowanie żywienia** - Rejestrowanie posiłków z automatycznym liczeniem kalorii
-- 📊 **Statystyki i wykresy** - Wizualizacja postępów treningowych i kalorycznych
-- 👤 **Profil użytkownika** - Edycja danych osobowych (wiek, wzrost, waga, płeć)
-- 📅 **Historia aktywności** - Przeglądanie wszystkich treningów i posiłków
-- 🔥 **Licznik kalorii** - Automatyczne obliczanie spalonych kalorii podczas treningów
+-  **Rejestracja i logowanie** - Bezpieczny system autentykacji z weryfikacją emaila
+-  **Śledzenie treningów** - Dodawanie i zarządzanie treningami siłowymi i cardio
+-  **Monitorowanie żywienia** - Rejestrowanie posiłków z automatycznym liczeniem kalorii
+-  **Statystyki i wykresy** - Wizualizacja postępów treningowych i kalorycznych
+-  **Profil użytkownika** - Edycja danych osobowych (wiek, wzrost, waga, płeć)
+-  **Historia aktywności** - Przeglądanie wszystkich treningów i posiłków
+-  **Licznik kalorii** - Automatyczne obliczanie spalonych kalorii podczas treningów
 
 ### Dla administratorów:
-- 👥 **Zarządzanie użytkownikami** - Przeglądanie i usuwanie kont użytkowników
-- 🔍 **Zaawansowane filtry** - Filtrowanie użytkowników po wieku, wzroście, wadze, płci, dacie rejestracji
-- 📈 **Dashboard administratora** - Statystyki systemowe (liczba użytkowników, treningów, posiłków)
-- 📊 **Wykresy aktywności** - Wizualizacja aktywności użytkowników w czasie
-- 🔐 **Zarządzanie rolami** - System ról (admin/user) z kontrolą dostępu
+-  **Zarządzanie użytkownikami** - Przeglądanie i usuwanie kont użytkowników
+-  **Zaawansowane filtry** - Filtrowanie użytkowników po wieku, wzroście, wadze, płci, dacie rejestracji
+-  **Dashboard administratora** - Statystyki systemowe (liczba użytkowników, treningów, posiłków)
+-  **Wykresy aktywności** - Wizualizacja aktywności użytkowników w czasie
+-  **Zarządzanie rolami** - System ról (admin/user) z kontrolą dostępu
 
-## 🛠 Technologie
+##  Technologie
 
 - **Backend:** PHP 7.4+
 - **Baza danych:** MySQL/MariaDB
@@ -43,7 +43,7 @@ Kompleksowa aplikacja webowa do śledzenia aktywności fizycznej, treningów i �
 - **Styl:** Custom CSS z gradientami i animacjami
 - **Architektura:** MVC pattern, OOP
 
-## 📦 Wymagania
+##  Wymagania
 
 - PHP 7.4 lub nowszy
 - MySQL 5.7+ lub MariaDB 10.3+
@@ -51,7 +51,7 @@ Kompleksowa aplikacja webowa do śledzenia aktywności fizycznej, treningów i �
 - Composer (opcjonalnie)
 - XAMPP/WAMP/LAMP (dla lokalnego środowiska)
 
-## 🚀 Instalacja
+##  Instalacja
 
 ### 1. Sklonuj repozytorium
 
@@ -106,7 +106,7 @@ Aby nadać rolę administratora istniejącemu użytkownikowi:
 UPDATE users SET role = 'admin' WHERE email = 'twoj-email@example.com';
 ```
 
-## 📁 Struktura projektu
+##  Struktura projektu
 
 ```
 FitnessTracker/
@@ -140,7 +140,7 @@ FitnessTracker/
 └── README.md
 ```
 
-## 💻 Użytkowanie
+##  Użytkowanie
 
 ### Dodawanie treningu
 
@@ -163,7 +163,7 @@ Dashboard automatycznie wyświetla:
 - Statystyki tygodniowe
 - Ostatnie treningi i posiłki
 
-## 🔐 Panel administratora
+##  Panel administratora
 
 Dostęp: `http://localhost/fitness-tracker/admin/admin_dashboard.php`
 
@@ -193,7 +193,7 @@ Dostęp: `http://localhost/fitness-tracker/admin/admin_dashboard.php`
 ### Zarządzanie użytkownikami
 ![Manage Users](docs/screenshots/manage-users.png)
 
-## 🔒 Bezpieczeństwo
+##  Bezpieczeństwo
 
 - Hashowanie haseł (bcrypt)
 - Ochrona przed SQL injection (prepared statements)
@@ -202,13 +202,14 @@ Dostęp: `http://localhost/fitness-tracker/admin/admin_dashboard.php`
 - Weryfikacja emaila
 - Zabezpieczenie przed CSRF (token w formularzach)
 
-## 📝 Licencja
+##  Licencja
 
 Ten projekt jest dostępny na licencji MIT. Zobacz plik [LICENSE](LICENSE) po szczegóły.
 
-## 🤝 Kontakt
+##  Kontakt
 
 W przypadku pytań lub sugestii, otwórz issue na GitHubie lub skontaktuj się:
 
 - GitHub: [@twoje-konto](https://github.com/twoje-konto)
 - Email: twoj-email@example.com
+
