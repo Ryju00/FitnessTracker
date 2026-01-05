@@ -178,7 +178,7 @@ Dostęp: `http://localhost/fitnesstracker/admin/admin_dashboard.php`
 ## 🎨 Zrzuty ekranu
 
 ### Logowanie/Rejestracja
-<img width="2559" height="1273" alt="Zrzut ekranu 2026-01-05 213508" src="https://github.com/user-attachments/assets/9579232f-4f1b-4d22-b095-f6cbcdf884e5" />
+<img width="1003" height="736" alt="Zrzut ekranu 2026-01-05 220231" src="https://github.com/user-attachments/assets/20c61d58-4d32-4baa-b60c-8f19ce4d0ff0" />
 
 ### Formularz dla nowych użytkowników
 <img width="817" height="870" alt="Zrzut ekranu 2026-01-05 213640" src="https://github.com/user-attachments/assets/b34e9238-97d2-4481-be18-90ed884c35ff" />
@@ -206,7 +206,7 @@ Dostęp: `http://localhost/fitnesstracker/admin/admin_dashboard.php`
 <img width="1475" height="1205" alt="Zrzut ekranu 2026-01-05 220005" src="https://github.com/user-attachments/assets/d27ac6f0-1f52-41dc-8ae7-5f73a48d1775" />
 
 ### Zarządzanie użytkownikami
-<img width="1383" height="915" alt="Zrzut ekranu 2026-01-05 220029" src="https://github.com/user-attachments/assets/c57b8b6e-fcf2-4497-b9ca-c35f1a4c23b3" />
+<img width="1387" height="1270" alt="Zrzut ekranu 2026-01-05 220214" src="https://github.com/user-attachments/assets/58e6a8b6-2319-4423-8f71-7a8db32d226e" />
 
 ##  Bezpieczeństwo
 
@@ -222,6 +222,7 @@ Dostęp: `http://localhost/fitnesstracker/admin/admin_dashboard.php`
 W przypadku pytań lub sugestii, otwórz issue na GitHubie lub skontaktuj się:
 
 - GitHub: [@Ryju00](https://github.com/Ryju00)
+
 
 
 
