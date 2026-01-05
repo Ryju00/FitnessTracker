@@ -199,6 +199,7 @@ Dostęp: `http://localhost/fitnesstracker/admin/admin_dashboard.php`
 
 W przypadku pytań lub sugestii, otwórz issue na GitHubie lub skontaktuj się:
 
-- GitHub: [@twoje-konto](https://github.com/twoje-konto)
+- GitHub: [@Ryju00](https://github.com/Ryju00)
+
 
 
