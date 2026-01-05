@@ -53,34 +53,27 @@ Kompleksowa aplikacja webowa do śledzenia aktywności fizycznej, treningów i �
 
 ##  Instalacja
 
-### 1. Sklonuj repozytorium
-
-```bash
-git clone https://github.com/twoje-konto/fitness-tracker.git
-cd fitness-tracker
-```
-
-### 2. Konfiguracja bazy danych
+### 1. Konfiguracja bazy danych
 
 Utwórz nową bazę danych MySQL:
 
 ```sql
-CREATE DATABASE fitness_tracker CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci;
+CREATE DATABASE gym_tracker CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci;
 ```
 
 Zaimportuj strukturę bazy danych:
 
 ```bash
-mysql -u root -p fitness_tracker < database/schema.sql
+mysql -u root -p gym_tracker < database/schema.sql
 ```
 
-### 3. Konfiguracja połączenia
+### 2. Konfiguracja połączenia
 
 Edytuj plik `includes/db.php` i dostosuj dane połączenia:
 
 ```php
 private $host = 'localhost';
-private $db_name = 'fitness_tracker';
+private $db_name = 'gym_tracker';
 private $username = 'root';
 private $password = '';
 ```
@@ -90,14 +83,14 @@ private $password = '';
 Jeśli używasz XAMPP:
 1. Skopiuj projekt do folderu `htdocs`
 2. Uruchom Apache i MySQL w panelu XAMPP
-3. Otwórz przeglądarkę: `http://localhost/fitness-tracker`
+3. Otwórz przeglądarkę: `http://localhost/fitnesstracker`
 
 ### 5. Pierwsze logowanie
 
 **Konto administratora (domyślne):**
 ```
-Email: admin@example.com
-Hasło: [ustaw podczas pierwszej rejestracji]
+Email: admin@fitness.pl
+Hasło: password (domyślnie)
 ```
 
 Aby nadać rolę administratora istniejącemu użytkownikowi:
@@ -165,7 +158,7 @@ Dashboard automatycznie wyświetla:
 
 ##  Panel administratora
 
-Dostęp: `http://localhost/fitness-tracker/admin/admin_dashboard.php`
+Dostęp: `http://localhost/fitnesstracker/admin/admin_dashboard.php`
 
 ### Funkcje:
 - **Statystyki globalne:**
@@ -202,14 +195,10 @@ Dostęp: `http://localhost/fitness-tracker/admin/admin_dashboard.php`
 - Weryfikacja emaila
 - Zabezpieczenie przed CSRF (token w formularzach)
 
-##  Licencja
-
-Ten projekt jest dostępny na licencji MIT. Zobacz plik [LICENSE](LICENSE) po szczegóły.
-
 ##  Kontakt
 
 W przypadku pytań lub sugestii, otwórz issue na GitHubie lub skontaktuj się:
 
 - GitHub: [@twoje-konto](https://github.com/twoje-konto)
-- Email: twoj-email@example.com
+
 
