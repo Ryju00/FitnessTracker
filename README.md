@@ -177,14 +177,36 @@ Dostęp: `http://localhost/fitnesstracker/admin/admin_dashboard.php`
 
 ## 🎨 Zrzuty ekranu
 
-### Dashboard użytkownika
-![Dashboard](docs/screenshots/dashboard.png)
+### Logowanie/Rejestracja
+<img width="2559" height="1273" alt="Zrzut ekranu 2026-01-05 213508" src="https://github.com/user-attachments/assets/9579232f-4f1b-4d22-b095-f6cbcdf884e5" />
+
+### Formularz dla nowych użytkowników
+<img width="817" height="870" alt="Zrzut ekranu 2026-01-05 213640" src="https://github.com/user-attachments/assets/b34e9238-97d2-4481-be18-90ed884c35ff" />
+
+### Główny Dashboard
+<img width="1426" height="1277" alt="Zrzut ekranu 2026-01-05 214134" src="https://github.com/user-attachments/assets/d88a8c54-ef83-42ac-b651-2dc40d77522e" />
+<img width="1431" height="925" alt="Zrzut ekranu 2026-01-05 213953" src="https://github.com/user-attachments/assets/8977cecb-310e-4f5c-b011-130916871ea4" />
+
+### Dashboard - Edycja Profilu
+<img width="1343" height="1052" alt="Zrzut ekranu 2026-01-05 214244" src="https://github.com/user-attachments/assets/d0c4e5f6-2f96-4316-8fb5-fa00eec676e6" />
+
+### Dashboard - Dodawanie Cardio
+<img width="1335" height="757" alt="Zrzut ekranu 2026-01-05 214315" src="https://github.com/user-attachments/assets/61006d92-bacf-45e4-ae41-406f242b6832" />
+
+### Dashboard - Dodawanie Treningu
+<img width="1330" height="1013" alt="Zrzut ekranu 2026-01-05 214355" src="https://github.com/user-attachments/assets/60fe163f-04ad-43fb-9a33-e624021a14ed" />
+
+### Dashboard - Historia Treningów
+<img width="1340" height="480" alt="Zrzut ekranu 2026-01-05 214410" src="https://github.com/user-attachments/assets/d7b75ae8-0339-4514-9307-54f959e576d5" />
+
+### Dashboard - Historia Posiłków
+<img width="1329" height="428" alt="Zrzut ekranu 2026-01-05 214426" src="https://github.com/user-attachments/assets/98d10889-ad5a-45e1-9334-ecf6ccb901c3" />
 
 ### Panel administratora
-![Admin Panel](docs/screenshots/admin.png)
+<img width="1475" height="1205" alt="Zrzut ekranu 2026-01-05 220005" src="https://github.com/user-attachments/assets/d27ac6f0-1f52-41dc-8ae7-5f73a48d1775" />
 
 ### Zarządzanie użytkownikami
-![Manage Users](docs/screenshots/manage-users.png)
+<img width="1383" height="915" alt="Zrzut ekranu 2026-01-05 220029" src="https://github.com/user-attachments/assets/c57b8b6e-fcf2-4497-b9ca-c35f1a4c23b3" />
 
 ##  Bezpieczeństwo
 
@@ -200,6 +222,7 @@ Dostęp: `http://localhost/fitnesstracker/admin/admin_dashboard.php`
 W przypadku pytań lub sugestii, otwórz issue na GitHubie lub skontaktuj się:
 
 - GitHub: [@Ryju00](https://github.com/Ryju00)
+
 
 
 
